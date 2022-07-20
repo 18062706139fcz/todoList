@@ -64,10 +64,6 @@ const isAllDone = computed({
   }
 })
 const input = ref(null);
-onMounted(() => {
-  if(input.value !== null)
-    input.value.focus()
-})
 </script>
 
 <template>
